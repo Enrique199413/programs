@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/code.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <div id="principal">
+  <h1>Conjuntos</h1>
+	<div id="mensajes"></div>
+	<div id="contenedor">
+		<p>Universo:<input type="text" onblur="conjuntoUniverso=this.value.split(',');"/></p>
+		<p>ConjuntoA:<input type="text" onblur="conjuntoA=this.value.split(',');"/></p>
+		<p>ConjuntoB:<input type="text" onblur="conjuntoB=this.value.split(',');"/></p>
+		<p>ConjuntoC:<input type="text" onblur="conjuntoC=this.value.split(',');"/></p>
+		<div class="button" onclick="init();">Obtener Calculos</div>
+	</div>
+	<div id="universo">
+		<h2 class="abajo">U</h2>
+		<div id="interCA" class="inter iizquierda">
+			<p>Inter CA</p>
+		</div>
+		<div id="interABC" class="inter icentro">
+			<p>Inter ABC</p>
+		</div>
+		<div id="interAB" class="inter iarriba">
+			<p>Inter AB</p>
+		</div>
+		<div id="interBC" class="inter iderecha">
+			<p>Inter BC</p>
+		</div>
+		<div id="conjuntoA" class="conjuntos izquierda">
+			<span class="title">A</span>
+			<p>10,20,30,40</p>
+		</div>
+		
+		<div id="conjuntoB" class="conjuntos derecha">
+			<span class="title">B</span>
+			<p>10,20,30,40</p>
+		</div>
+		
+		<div id="conjuntoC" class="conjuntos centro">
+			<span class="title">C</span>
+			<p>10,20,30,40</p>
+		</div>
+		
+	</div>
+  </div>
+</body>
+</html>

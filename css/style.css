@@ -1,0 +1,160 @@
+body{
+font-family: Arial;
+background:URL('http://subtlepatterns.com/patterns/gplaypattern.png');
+}
+.conjuntos{
+	width: 200px;
+	height: 200px;
+	border-radius: 125px;
+	text-align: center;
+	text-align: center;
+	box-shadow: 0 0 5px yellow inset;
+	cursor:pointer;
+}
+#contenedor{
+	text-align:center;
+}
+#contenedor p{
+	
+}
+#contenedor input[type="text"]{
+	
+}
+#mensajes{
+position:absolute;
+width: 25%;
+bottom:0;
+}
+#mensajes p{background: black;
+height: auto;
+width: 90%;
+
+display: none;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 15px;
+color: white;
+text-align: center;}
+.conjuntos p{
+	z-index: 1000;
+position: absolute;
+width: 65px;
+position: absolute;
+padding: 10px;
+background: black;
+color: white;
+width: auto;
+right:0;
+border-radius: 7px;
+box-shadow: 1px 1px 5px white;
+display:none;
+}
+#universo{
+	background: rgba(0,0,0,.45);
+position: absolute;
+margin: 0 auto 0 auto;
+left: 0;
+right: 0;
+width: 285px;
+height: 280px;
+text-align: center;
+padding: 35px;
+	box-shadow: 0px 0px 12px black inset;
+}
+.button{
+  padding:10px;
+  background:white;
+  width:140px;
+  border:1px solid black;
+  text-align:center;
+  margin:0 auto 5px auto;
+  cursor:pointer;
+}
+.button:hover{
+  padding:10px;
+  background:black;
+  width:140px;
+  border:1px solid black;
+  text-align:center;
+  color:white;
+  margin:0 auto 5px auto;
+}
+h1{
+	text-align:center;
+}
+.derecha{
+position: absolute;
+right: 10px;
+top: 30px;
+}
+.izquierda{
+position: absolute;
+left: 10px;
+top: 30px;
+}
+.icentro{
+margin: 0 auto 0 auto;
+left: 0;
+right: 0;
+top: 142px;
+bottom: 0;
+height: 50px;
+}
+.iderecha{
+right: 79px;
+margin: 0 auto 0 auto;
+top: 172px;
+height: 55px;
+}
+.iarriba{
+top: 55px;
+left: 0;
+right: 0;
+margin: 0 auto 0 auto;
+height: 85px;
+}
+.iizquierda{
+left: 79px;
+top: 170px;
+height: 55px;
+}
+.centro{
+position: absolute;
+margin: 0 auto 0 auto;
+left: 0;
+right: 0;
+bottom: 10px;
+}
+.title{
+position: absolute;
+font-size: 30pt;
+left: 0;
+right: 0;
+top: 70px;
+
+}
+.inter{
+z-index: 1000;
+position: absolute;
+width: 65px;
+cursor:pointer;
+}
+.inter p{
+z-index: 1000;
+position: absolute;
+width: 65px;
+position: absolute;
+padding: 10px;
+background: white;
+width: auto;
+border-radius: 7px;
+box-shadow: 1px 1px 5px black;
+display:none;
+}
+.abajo{
+bottom: -27px;
+position: absolute;
+right: 11px;
+font-size: 27pt;
+}
